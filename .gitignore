@@ -1,0 +1,18 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local data and runtime files
+data/
+prometheus_data/
+grafana_data/
+*.log
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
